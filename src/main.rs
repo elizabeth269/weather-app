@@ -45,3 +45,11 @@ fn get_weather_info(
     let response_json: WeatherResponse = Response.json::<WeatherResponse>()?;
     Ok(response_json);
 }
+
+
+//function to display the weather information
+
+fn display_weather_info(response: &WeatherResponse){
+    //extract the weather information from the response
+    let description: &String = &response.weather[0].description;
+}
