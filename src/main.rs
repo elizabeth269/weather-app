@@ -46,10 +46,9 @@ fn get_weather_info(
     Ok(response_json);
 }
 
-
 //function to display the weather information
 
-fn display_weather_info(response: &WeatherResponse){
-    //extract the weather information from the response
-    let description: &String = &response.weather[0].description;
-}
+// fn display_weather_info(response: &WeatherResponse){
+//     //extract the weather information from the response
+//     let description: &String = &response.weather[0].description;
+// }
